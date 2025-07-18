@@ -13,7 +13,7 @@ label_map = {
 st.title("Detector de Notícias Falsas")
 
 # Define o limite de caracteres
-MAX_CHARS = 800
+MAX_CHARS = 1500
 
 # Inicializa a variável de sessão para o texto se não existir
 if 'user_input' not in st.session_state:
