@@ -2,7 +2,7 @@ from transformers import pipeline
 import streamlit as st
 
 # Inicializa o modelo
-detector = pipeline("text-classification", model="jy46604790/Fake-News-Bert-Detect")
+detector = pipeline("text-classification", model="mrm8488/bert-tiny-finetuned-fake-news-detection")
 
 label_map = {
     "LABEL_0": "FAKE",
